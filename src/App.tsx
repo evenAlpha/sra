@@ -2,11 +2,8 @@ import "@mantine/core/styles.css";
 import { MantineProvider } from "@mantine/core";
 import { theme } from "./theme";
 import { ColorSchemeScript } from '@mantine/core'
-import { supabase } from './supabase'
-import React from 'react'
 import { AuthProvider } from './context/AuthContext';
 import { AuthForm } from './components/AuthForm';
-
 
 function App() {
 
